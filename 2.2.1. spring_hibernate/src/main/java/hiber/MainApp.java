@@ -39,8 +39,8 @@ public class MainApp {
             System.out.println();
         }
 
-        List<User> usersByCar = userService.getUsersByCar("Lada", "Priora");
-        for (User user : usersByCar) {
+        List<User> userByCar = userService.getUserByCar("Lada", "Priora");
+        for (User user : userByCar) {
             System.out.println(user);
         }
 

@@ -27,7 +27,7 @@ public class MainApp {
 
         userService.add(new User("Danila", "Voroncov", "dania2010@yandex.ru"));
 
-        List<User> users = userService.listUsers();
+        List<User> users = userService.getUsersList();
         for (User user : users) {
             System.out.println("Id = " + user.getId());
             System.out.println("First Name = " + user.getFirstName());
